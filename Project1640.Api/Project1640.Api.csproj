@@ -5,7 +5,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="10.4.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.15" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Project1640.Data\Project1640.Data.csproj" />
+    <ProjectReference Include="..\Project1640.Dto\Project1640.Dto.csproj" />
+    <ProjectReference Include="..\Project1640.Service\Project1640.Service.csproj" />
   </ItemGroup>
 
 </Project>
